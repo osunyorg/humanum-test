@@ -1,15 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Projets
-  slug: projets
-  target: "/projets/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
 - title: Personnes
   slug: personnes
   target: "/personnes/"
@@ -64,13 +55,13 @@ items:
   descendants_targets: []
   path: "/jobs"
   file: content/fr/jobs/_index.html
-- title: DOS - Durabilité des Outils en SHS
-  slug: dos-durabilite-des-outils-en-shs
-  target: "/dos-durabilite-des-outils-en-shs/"
+- title: Projets
+  slug: projets
+  target: "/projets/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/pages/dos-durabilite-des-outils-en-shs"
-  file: content/fr/pages/dos-durabilite-des-outils-en-shs/_index.html
+  path: "/projects"
+  file: content/fr/projects/_index.html
 
