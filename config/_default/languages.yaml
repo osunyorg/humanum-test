@@ -2,13 +2,25 @@
 
 fr:
   title: >-
-    Test
+    DOS - Durabilité des Outils en SHS
   contentDir: content/fr
   languageCode: fr
   languageName: Français
   buildFuture: true
   params:
     contact_details:
+      emails:
+        email:
+          label: >-
+            durabilite-outils-shs@listes.huma-num.fr
+          value: >-
+            mailto:durabilite-outils-shs@listes.huma-num.fr
+      social_networks:
+        github:
+          label: >-
+            gitlab.huma-num.fr/dos
+          value: >-
+            https://github.com/gitlab.huma-num.fr/dos
 
   taxonomies:
     administrator: administrators
