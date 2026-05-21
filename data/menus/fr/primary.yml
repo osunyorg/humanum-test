@@ -90,15 +90,6 @@ items:
   - "/activites/lettre-dinformation/"
   path: "/pages/activites"
   file: content/fr/pages/activites/_index.html
-- title: Agenda
-  slug: agenda
-  target: "/agenda/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/events"
-  file: content/fr/events/_index.html
 - title: Ressources
   slug: ressources
   target: "/ressources/"
