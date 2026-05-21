@@ -1,6 +1,95 @@
 ---
 title: Menu principal
 items:
+- title: À propos
+  slug: a-propos
+  target: "/a-propos/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Présentation
+    slug: presentation
+    target: "/a-propos/presentation/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/a-propos/presentation"
+    file: content/fr/pages/a-propos/presentation/_index.html
+  - title: Gouvernance
+    slug: gouvernance
+    target: "/a-propos/gouvernance/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/a-propos/gouvernance"
+    file: content/fr/pages/a-propos/gouvernance/_index.html
+  - title: Membres
+    slug: membres
+    target: "/a-propos/membres/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/a-propos/membres"
+    file: content/fr/pages/a-propos/membres/_index.html
+  - title: Partenaires
+    slug: partenaires
+    target: "/a-propos/partenaires/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/a-propos/partenaires"
+    file: content/fr/pages/a-propos/partenaires/_index.html
+  descendants_targets:
+  - "/a-propos/gouvernance/"
+  - "/a-propos/membres/"
+  - "/a-propos/partenaires/"
+  - "/a-propos/presentation/"
+  path: "/pages/a-propos"
+  file: content/fr/pages/a-propos/_index.html
+- title: Activités
+  slug: activites
+  target: "/activites/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Axes
+    slug: axes
+    target: "/activites/axes/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Axe 1
+      slug: axe-1
+      target: "/activites/axes/axe-1/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/activites/axes/axe-1"
+      file: content/fr/pages/activites/axes/axe-1/_index.html
+    descendants_targets:
+    - "/activites/axes/axe-1/"
+    path: "/pages/activites/axes"
+    file: content/fr/pages/activites/axes/_index.html
+  - title: Lettre d'information
+    slug: lettre-d-information
+    target: "/activites/lettre-dinformation/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/activites/lettre-dinformation"
+    file: content/fr/pages/activites/lettre-dinformation/_index.html
+  descendants_targets:
+  - "/activites/axes/"
+  - "/activites/axes/axe-1/"
+  - "/activites/lettre-dinformation/"
+  path: "/pages/activites"
+  file: content/fr/pages/activites/_index.html
 - title: Agenda
   slug: agenda
   target: "/agenda/"
@@ -64,4 +153,13 @@ items:
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
+- title: Ressources
+  slug: ressources
+  target: "/ressources/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/ressources"
+  file: content/fr/pages/ressources/_index.html
 
